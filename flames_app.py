@@ -11,4 +11,4 @@ st.markdown(
   
 </body>
   
-</html>, unsafe_allow_html=True)
+</html>, unsafe_allow_html=False)
