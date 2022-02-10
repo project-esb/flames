@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.header("FLAMES")
+st.markdown(<h1>"FLAMES"</h1>)
