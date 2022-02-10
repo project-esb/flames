@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown('<center><h1>🅵🅻🅰🅼🅴🆂</h1></center>',unsafe_allow_html=True)
 
- st.markdown(
+st.markdown(
     """
     <style>
     .reportview-container {
@@ -13,5 +13,4 @@ st.markdown('<center><h1>🅵🅻🅰🅼🅴🆂</h1></center>',unsafe_allow_ht
     }
     </style>
     """,
-    unsafe_allow_html=True
-)
+    unsafe_allow_html=True)
