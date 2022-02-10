@@ -12,7 +12,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://pixabay.com/images/id-3061483/");
+             background: url("https://pixabay.com/images/id-3061483");
              background-size: cover
          }}
          </style>
