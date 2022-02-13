@@ -64,6 +64,7 @@ if check and not clear:
 elif clear==True:
     s1.clear()
     s2.clear()
+    st.write("")
     
 
 
