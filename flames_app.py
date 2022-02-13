@@ -61,8 +61,9 @@ if check and not clear:
         'S':'Sibling'
     }
     st.write(ref[t[0]])
-else:
-    pass
+elif clear==True:
+    s1.clear()
+    s2.clear()
     
 
 
