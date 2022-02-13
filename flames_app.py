@@ -4,8 +4,7 @@ st.markdown('<center><h1>🅵🅻🅰🅼🅴🆂</h1></center>',unsafe_allow_ht
 
 c1 = st.container()
 with c1:
-    st.write("**Enter Your Name:**")
-    st.text_input("")
+    st.text_input("Enter Your Name:")
 
 
 
