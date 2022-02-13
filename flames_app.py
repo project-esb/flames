@@ -64,6 +64,7 @@ if check==True:
 elif clear==True:
     s1=""
     s2=""
+    c1.empty()
     
 
 
