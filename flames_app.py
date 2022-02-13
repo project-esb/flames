@@ -2,11 +2,11 @@ import streamlit as st
 
 st.markdown('<center><h1>🅵🅻🅰🅼🅴🆂</h1></center>',unsafe_allow_html=True)
 
-c1 = st.container()
-with c1:
+p1=st.empty()
+with p1.container():
     s1=st.text_input("Enter Your Name:")
     s2=st.text_input("Enter Your Crush Name:")
-    
+
 check=st.button("Check")
 clear=st.button("Clear")
 
@@ -64,7 +64,7 @@ if check==True:
 elif clear==True:
     s1=""
     s2=""
-    c1.empty()
+    p1.empty()
     
 
 
