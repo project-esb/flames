@@ -20,7 +20,8 @@ def set_bg_hack_url():
          """,
          unsafe_allow_html=True
      )
-
+    
+set_bg_hack_url()
 def actual_code(s1,s2):
     s1l=s1.lower()
     s2l=s2.lower()
