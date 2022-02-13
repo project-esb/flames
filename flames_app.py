@@ -65,6 +65,7 @@ with st.form("my_form",clear_on_submit = True):
     submitted = st.form_submit_button("Submit")
     if submitted:
         actual_code(t1,t2)
+        st.ballons()
        
 
 
