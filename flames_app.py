@@ -57,7 +57,7 @@ def actual_code(s1,s2):
 
 
 
-with st.form("my_form",clear_on_submit = False):
+with st.form("my_form",clear_on_submit = True):
     t1=st.text_input("Enter Your Name:")
     t2=st.text_input("Enter Your Crush Name:")
     
