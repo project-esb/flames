@@ -6,8 +6,11 @@ c1 = st.container()
 with c1:
     s1=st.text_input("Enter Your Name:")
     s2=st.text_input("Enter Your Crush Name:")
+    
+check=st.button("Check")
+clear=st.button("Clear")
 
-if st.button("Check"):
+if check and not clear:
     s1l=s1.lower()
     s2l=s2.lower()
 
@@ -58,6 +61,9 @@ if st.button("Check"):
         'S':'Sibling'
     }
     st.write(ref[t[0]])
+else:
+    pass
+    
 
 
 
