@@ -10,7 +10,7 @@ with c1:
 check=st.button("Check")
 clear=st.button("Clear")
 
-if check and not clear:
+if check==True:
     s1l=s1.lower()
     s2l=s2.lower()
 
