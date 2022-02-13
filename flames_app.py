@@ -62,8 +62,8 @@ if check==True:
     }
     st.write(ref[t[0]])
 elif clear==True:
-    s1=st.text_input("Enter Your Name:",value=' ')
-    s2=st.text_input("Enter Your Crush Name:",value=' ')
+    s1=""
+    s2=""
     
 
 
