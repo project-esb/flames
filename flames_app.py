@@ -64,7 +64,8 @@ if check and not clear:
 elif clear==True:
     s1.clear()
     s2.clear()
-    st.write("")
+    s1=st.text_input("Enter Your Name:",value="")
+    s2=st.text_input("Enter Your Crush Name:",value="")
     
 
 
