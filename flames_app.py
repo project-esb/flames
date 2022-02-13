@@ -11,9 +11,6 @@ with st.form("my_form",clear_on_submit = False):
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")
     if submitted:
-        s1=str(input())
-        s2=str(input())
-
         s1l=s1.lower()
         s2l=s2.lower()
 
