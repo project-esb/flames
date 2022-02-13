@@ -64,10 +64,6 @@ if check==True:
 elif clear==True:
     s1=""
     s2=""
-    p1.empty()
-    with p1.container():
-        s1=st.text_input("Enter Your Name:")
-        s2=st.text_input("Enter Your Crush Name:")
     
 
 
