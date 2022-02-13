@@ -13,9 +13,6 @@ def actual_code(s1,s2):
     s2a=sorted(s2c)
 
 
-    print(s1a)
-    print(s2a)
-
     for _ in range(2):
         for i in s1a:
             t1=i
@@ -52,7 +49,7 @@ def actual_code(s1,s2):
         'E':'Enemies',
         'S':'Sibling'
     }
-    print(ref[t[0]])
+    st.write(ref[t[0]])
 
 
 
