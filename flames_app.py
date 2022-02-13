@@ -13,7 +13,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://drive.google.com/file/d/15J8OEk4h5fdW54qTFOyxoifLZxngZncz");
+             background: url("https://drive.google.com/uc?export=view&id=15J8OEk4h5fdW54qTFOyxoifLZxngZncz");
              background-size: cover
          }}
          </style>
