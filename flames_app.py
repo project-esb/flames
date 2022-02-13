@@ -2,7 +2,9 @@ import streamlit as st
 
 st.markdown('<center><h1>🅵🅻🅰🅼🅴🆂</h1></center>',unsafe_allow_html=True)
 
-def actual_code():
+def actual_code(s1,s2):
+    self.s1=s1
+    self.s2=s2
     s1l=s1.lower()
     s2l=s2.lower()
 
@@ -67,7 +69,7 @@ with st.form("my_form",clear_on_submit = False):
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")
     if submitted:
-        actual_code()
+        actual_code(s1,s2)
        
 
 
