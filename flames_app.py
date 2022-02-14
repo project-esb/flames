@@ -16,6 +16,7 @@ def set_bg_hack_url():
              background: url("https://drive.google.com/uc?export=view&id=1oMhUjiWukp9NRyn1NmTl4gllL-UWuCGz");
              background-size: cover
          }}
+         .css-12ttj6m{background-color:rgba(217,25,33,255); }
          </style>
          """,
          unsafe_allow_html=True
