@@ -25,7 +25,8 @@ def set_bg_hack_url():
              background-size: cover
          }}
          .css-12ttj6m{{background-color:rgba(217,25,33,255); }}
-         body{{font-weight: bold;}}
+         body{{font-weight: bold;
+               font-family:"Galaxy-BT", sans-serif}}
          </style>
          """,
          unsafe_allow_html=True
