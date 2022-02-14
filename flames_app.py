@@ -28,6 +28,9 @@ def set_bg_hack_url():
          body{{font-weight: bold;
                font-family:"Galaxy-BT", sans-serif}}
          .css-1cpxqw2{{font-weight:bold}}
+         p, ol, ul, dl{{font-weight:bold;
+                        text-align:center;
+                        font-size:1.3rem;}}
          </style>
          """,
          unsafe_allow_html=True
